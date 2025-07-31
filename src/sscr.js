@@ -1,4 +1,3 @@
-
 //
 // SmoothScroll (Balazs Galambosi)
 // Licensed under the terms of the MIT license.
@@ -612,7 +611,7 @@ function postScrollToParent(deltaX, deltaY) {
         deltaX: deltaX,
         deltaY: deltaY,
         SS: 'SmoothScroll'
-    }, '*');
+    }, 'https://trusted-origin.com'); // Specify the trusted origin here
 }
 
 
